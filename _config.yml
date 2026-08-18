@@ -1,0 +1,11 @@
+title: "Ponto de Fuga"
+description: "Anotações da disciplina de Computação Visual — Ciência da Computação, 2026.2."
+baseurl: "/visual-blog"
+
+posts_list:
+  - title: "Do olho humano à imagem digital"
+    url: "/02_fundamentos_imagem.html"
+    date: "18 agosto 2026"
+  - title: "Do UI/UX à Computação Visual: o que eu esperava vs. o que entendi"
+    url: "/01_expectativas.html"
+    date: "18 agosto 2026"
