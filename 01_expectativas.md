@@ -11,3 +11,5 @@ Resumindo: esperava front-end, encontrei um campo bem mais amplo — e estou cur
  
 ---
 [Voltar à página inicial](index.md)
+ 
+<p align="center" style="color:#6a737d; font-size: 0.85em;">Igor · Ciência da Computação · Computação Visual — 2026.2</p>
