@@ -13,3 +13,5 @@ A luz visível é só uma fatia do espectro eletromagnético (~400 a 700 nm). Ca
  
 ---
 [Voltar à página inicial](index.md)
+ 
+<p align="center" style="color:#6a737d; font-size: 0.85em;">Igor · Ciência da Computação · Computação Visual — 2026.2</p>
