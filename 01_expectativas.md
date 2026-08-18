@@ -1,15 +1,13 @@
-# Do UI/UX à Computação Visual: o que eu esperava vs. o que entendi
-**18/08/2026**
- 
-Quando vi "Computação Visual" na grade, imaginei algo entre front-end, design de UI/UX e talvez jogos — meio que uma continuação de IHC. "Visual" me soou mais a *"como as coisas aparecem na tela"* do que a *"como o computador entende imagens"*.
- 
-Depois do plano de ensino, entendi que é bem mais amplo: um guarda-chuva que junta Computação Gráfica, Visão Computacional e Processamento de Imagens. Não é só sobre exibir gráficos bonitos, é sobre como imagens são capturadas, representadas e interpretadas por uma máquina — começando até pela biologia da visão humana.
- 
-Fiquei surpreso que entender o olho humano e a luz importa mesmo pra quem só quer mexer com imagens digitais: é a base de convenções como o próprio RGB.
- 
-Resumindo: esperava front-end, encontrei um campo bem mais amplo — e estou curioso pra ver como tudo isso vai se conectar ao longo do semestre.
- 
 ---
-[Voltar à página inicial](index.md)
- 
-<p align="center" style="color:#6a737d; font-size: 0.85em;">Igor · Ciência da Computação · Computação Visual — 2026.2</p>
+layout: post
+title: "Do UI/UX à Computação Visual: o que eu esperava vs. o que entendi"
+date_label: "18 agosto 2026"
+---
+
+Quando vi "Computação Visual" na grade, imaginei algo entre front-end, design de interface e talvez jogos — uma espécie de continuação de IHC. A palavra *visual* me soou como *"o jeito que as coisas aparecem na tela"*, e não como *"o jeito que a máquina entende uma imagem"*.
+
+O plano de ensino desfez isso rápido. A disciplina é um guarda-chuva sobre três áreas que eu via como separadas: Computação Gráfica, Visão Computacional e Processamento de Imagens. Ou seja, não é só sintetizar imagem — é também capturar, representar e interpretar.
+
+O que mais me pegou de surpresa foi o ponto de partida: o olho humano. Eu não esperava abrir uma disciplina de computação falando de retina, cones e comprimento de onda. Mas faz sentido — convenções que eu sempre tratei como dadas, o RGB à frente de todas, vêm justamente de como a nossa visão funciona.
+
+Esperava front-end. Encontrei um campo bem mais largo, e agora estou curioso para ver onde essas três pontas se encontram ao longo do semestre.
