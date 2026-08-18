@@ -1,0 +1,39 @@
+Banner · SVG
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="100%" height="auto" role="img" aria-label="Ilustração de um olho estilizado cercado por pixels coloridos">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6a5acd"/>
+      <stop offset="100%" stop-color="#20b2aa"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#7CE0D3"/>
+      <stop offset="55%" stop-color="#1FA2A6"/>
+      <stop offset="100%" stop-color="#0E6E76"/>
+    </radialGradient>
+  </defs>
+ 
+  <rect x="0" y="0" width="600" height="220" rx="22" fill="url(#bg)"/>
+ 
+  <!-- pixels decorativos -->
+  <rect x="30" y="24" width="16" height="16" fill="#FFD166"/>
+  <rect x="52" y="24" width="16" height="16" fill="#EF476F"/>
+  <rect x="30" y="46" width="16" height="16" fill="#06D6A0"/>
+  <rect x="520" y="150" width="16" height="16" fill="#FFD166"/>
+  <rect x="542" y="150" width="16" height="16" fill="#EF476F"/>
+  <rect x="542" y="172" width="16" height="16" fill="#118AB2"/>
+  <rect x="60" y="170" width="14" height="14" fill="#118AB2"/>
+  <rect x="76" y="186" width="14" height="14" fill="#06D6A0"/>
+  <rect x="500" y="30" width="14" height="14" fill="#EF476F"/>
+  <rect x="480" y="46" width="14" height="14" fill="#FFD166"/>
+ 
+  <!-- olho -->
+  <path d="M 120 110 Q 300 30 480 110 Q 300 190 120 110 Z" fill="#FFFFFF"/>
+  <path d="M 120 110 Q 300 30 480 110 Q 300 190 120 110 Z" fill="none" stroke="#0E3B43" stroke-width="6" stroke-linejoin="round"/>
+ 
+  <circle cx="300" cy="110" r="55" fill="url(#iris)"/>
+  <circle cx="300" cy="110" r="24" fill="#10161A"/>
+  <circle cx="286" cy="95" r="9" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="316" cy="122" r="4" fill="#FFFFFF" opacity="0.5"/>
+</svg>
+ 
+
