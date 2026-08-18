@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfaf7; --ink:#1b1a18; --muted:#7a746c;
+  --rule:#e3dfd7; --accent:#9c4a2f;
+  --sans:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#151514; --ink:#e9e6e0; --muted:#928c83; --rule:#2d2c29; --accent:#d38b6b; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Newsreader",Georgia,"Times New Roman",serif;
+  font-size:19px; line-height:1.72; font-weight:400;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+.wrap{max-width:36rem;margin:0 auto;padding:0 1.5rem}
+
+/* ---- cabeçalho ---- */
+.site-head{padding-top:3.25rem}
+.wordmark{
+  font-family:var(--sans); font-size:.68rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--muted); text-decoration:none; font-weight:500;
+}
+.wordmark:hover{color:var(--accent)}
+
+/* ---- masthead (home) ---- */
+.masthead{padding-top:4.75rem}
+.masthead h1{font-size:2.7rem;line-height:1.1;font-weight:400;letter-spacing:-.02em;margin:0}
+.masthead .lede{color:var(--muted);font-style:italic;font-size:1.06rem;line-height:1.5;margin:.7rem 0 0}
+
+/* ---- linha do horizonte ---- */
+.horizon{
+  height:1px;border:0;margin:2.9rem 0;
+  background:linear-gradient(to right,transparent,var(--rule) 14%,var(--rule) 86%,transparent);
+}
+
+/* ---- índice de posts ---- */
+.section-label{
+  font-family:var(--sans);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 1.1rem
+}
+.index{list-style:none;padding:0;margin:0}
+.index li{padding:1.4rem 0;border-bottom:1px solid var(--rule)}
+.index li:first-child{border-top:1px solid var(--rule)}
+.index li:last-child{border-bottom:0}
+.index .date{
+  display:block;font-family:var(--sans);font-size:.66rem;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:.35rem
+}
+.index a{font-size:1.22em;line-height:1.34;color:var(--ink);text-decoration:none;display:inline-block}
+.index a:hover{color:var(--accent)}
+
+/* ---- post ---- */
+.post-head{padding-top:3.25rem}
+.post-head h1{font-size:1.95rem;font-weight:400;line-height:1.2;letter-spacing:-.015em;margin:.45rem 0 0}
+.post-head time{
+  font-family:var(--sans);font-size:.66rem;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--muted)
+}
+.prose{margin-top:2.4rem}
+.prose p{margin:0 0 1.4em}
+.prose h2{font-size:1.22em;font-weight:600;line-height:1.4;letter-spacing:-.01em;margin:2.5em 0 .5em}
+.prose em{font-style:italic;color:var(--muted)}
+.prose a{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.17em;text-decoration-color:var(--rule)}
+.prose a:hover{color:var(--accent);text-decoration-color:var(--accent)}
+.back{
+  font-family:var(--sans);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);text-decoration:none
+}
+.back:hover{color:var(--accent)}
+
+/* ---- rodapé ---- */
+.site-foot{margin-top:4rem;margin-bottom:5rem;color:var(--muted);font-family:var(--sans);font-size:.7rem;letter-spacing:.09em}
+.site-foot p{margin:0}
+
+@media (max-width:600px){
+  body{font-size:18px}
+  .masthead h1{font-size:2.15rem}
+  .masthead{padding-top:3rem}
+}
+</style>
+</head>
+<body>
+
+{% if page.url != '/' %}
+<div class="wrap site-head">
+  <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+</div>
+{% endif %}
+
+{{ content }}
+
+<footer class="wrap site-foot">
+  <hr class="horizon">
+  <p>Igor · Ciência da Computação · Computação Visual · 2026.2</p>
+</footer>
+
+</body>
+</html>
