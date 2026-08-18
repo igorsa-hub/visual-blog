@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="wrap masthead">
+  <h1>{{ site.title }}</h1>
+  <p class="lede">{{ site.description }}</p>
+</div>
+
+<div class="wrap"><hr class="horizon"></div>
+
+<div class="wrap prose">{{ content }}</div>
+
+<div class="wrap" style="margin-top:2.8rem">
+  <p class="section-label">Publicações</p>
+  <ul class="index">
+    {% for p in site.posts_list %}
+    <li>
+      <span class="date">{{ p.date }}</span>
+      <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
