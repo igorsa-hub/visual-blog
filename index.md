@@ -1,3 +1,8 @@
+---
+layout: home
+---
+
+Caderno aberto da disciplina de Computação Visual, ministrada pelo Prof. André Kishimoto. Registro aqui o que vou entendendo sobre imagem, luz, cor e percepção — e o que ainda não entendi.
 <div align="center">
 <svg width="72" height="54" viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ícone de ponto de fuga: linhas de perspectiva convergindo para um ponto central">
   <line x1="6" y1="6" x2="60" y2="45" stroke="#3b3f45" stroke-width="1.4"/>
